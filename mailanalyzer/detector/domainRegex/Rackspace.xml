@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Rackspace
+Internal-Id: 37
+Source: manual, senderbase
+Author: Henze
+Date: 2016-11-16 16:22
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name ="Rackspace" Id="37">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?rackspacecloud\.com" />
+    <Regex Regex="(?:\S*\.)?rackspace\.com" />
+    <Regex Regex="(?:\S*\.)?mailgun\.net" />
+    <Regex Regex="(?:\S*\.)?mailgun\.us" />
+    <Regex Regex="(?:\S*\.)?mailgun\.info" />
+    <Regex Regex="(?:\S*\.)?emailsrvr\.com" />
+    <Regex Regex="(?:\S*\.)?mgsend\.net" />
+    <Regex Regex="(?:\S*\.)?rackspace\.net" />
+  </Region>
+</Service>
+</DomainRegexes>

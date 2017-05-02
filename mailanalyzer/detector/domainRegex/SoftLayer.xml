@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: SoftLayer (IPv4)
+Internal-Id: 7
+Source: manual, senderbase
+Author: Henze
+Date: 2016-11-16 16:07
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name ="SoftLayer" Id="7">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?softlayer\.com" />
+    <Regex Regex="(?:\S*\.)?sl-reverse\.com" />
+    <Regex Regex="(?:\S*\.)?networklayer\.com" />
+    <Regex Regex="(?:\S*\.)?ibmcloud\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

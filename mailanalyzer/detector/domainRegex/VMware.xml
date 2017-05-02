@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: VMware
+Internal-Id: -1
+Source: manual, senderbase
+Author: Henze
+Date: 2016-11-16 16:34
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name ="VMware" Id="-1">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?vmware\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

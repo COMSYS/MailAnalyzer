@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: MAXMailProtection / LOGICnow (IPv4)
+Internal-Id: ?
+Source: https://support.logicnow.com/kb/mail/What-are-the-IP-addresses-used-by-the-spam-filters1
+Author: Henze
+Date: 2016-10-14 15:35
+-->
+<IpRanges xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="MAXMailProtection" Id="?">
+  <Region ID="0">
+    <IpRange Subnet="5.10.67.0/24" />
+    <IpRange Subnet="94.186.192.0/24" />
+    <IpRange Subnet="174.36.154.0/24" />
+    <IpRange Subnet="192.69.16.0/22" />
+    <IpRange Subnet="208.43.37.0/24" />
+    <IpRange Subnet="208.70.88.0/22" />
+  </Region>
+</Service>
+</IpRanges>

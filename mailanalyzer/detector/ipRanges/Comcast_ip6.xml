@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Comcast (IPv6)
+Internal-Id: -1
+Source: http://postmaster.comcast.net/outbound-mail-servers.html
+Author: Henze
+Date: 2016-10-12 19:13
+-->
+<IpRanges xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Comcast" Id="-1">
+  <Region ID="0">
+    <IpRange Subnet="2001:558:fe16:19::/64" />
+    <IpRange Subnet="2001:558:fe21:29::/64" />
+  </Region>
+</Service>
+</IpRanges>

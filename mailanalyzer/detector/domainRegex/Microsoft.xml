@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Microsoft
+Internal-Id: ?
+Source: manual, senderbase.org
+Author: Henze
+Date: 2016-11-16 15:15
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name ="Microsoft" Id="?">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?outlook\.com" />
+    <Regex Regex="(?:\S*\.)?office365\.com" />
+    <Regex Regex="(?:\S*\.)?exchangelabs\.com" />
+    <Regex Regex="(?:\S*\.)?msn\.com" />
+    <Regex Regex="(?:\S*\.)?hotmail\.com" />
+    <Regex Regex="(?:\S*\.)?microsoftemail\.com" /> 
+    <Regex Regex="(?:\S*\.)?playmsn\.com" />
+    <Regex Regex="(?:\S*\.)?lync\.com" />
+    <Regex Regex="(?:\S*\.)?microsoft\.com" />
+    <Regex Regex="(?:\S*\.)?hotmail-int\.com" />
+    <Regex Regex="(?:\S*\.)?live\.com" />
+    <Regex Regex="(?:\S*\.)?msn\.net" />
+    <Regex Regex="(?:\S*\.)?webtv\.net" />
+    <Regex Regex="(?:\S*\.)?live-int\.com" />
+    <Regex Regex="(?:\S*\.)?windows\.com" />
+    <Regex Regex="(?:\S*\.)?osdinfra\.net" />
+    <Regex Regex="(?:\S*\.)?directtaps\.net" />
+    <Regex Regex="(?:\S*\.)?windows\.net" />
+    <Regex Regex="(?:\S*\.)?mcmexch\.ms" />
+    <Regex Regex="(?:\S*\.)?msn-int\.com" />
+    <Regex Regex="(?:\S*\.)?msedge\.net" />
+    <Regex Regex="(?:\S*\.)?msft\.net" />
+    <Regex Regex="(?:\S*\.)?skype\.com" />
+    <Regex Regex="(?:\S*\.)?skype\.net" />
+  </Region>
+</Service>
+</DomainRegexes>

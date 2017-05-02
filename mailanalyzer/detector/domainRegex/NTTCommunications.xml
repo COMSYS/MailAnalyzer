@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: NTT Communications
+Internal-Id: ?
+Source: manual
+Author: Henze
+Date: 2016-10-18 14:37
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name ="NTT Communications" Id="?">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?cloudn-service\.com" />
+    <Regex Regex="(?:\S*\.)?cloudn2\.net" />
+    <Regex Regex="(?:\S*\.)?ntt\.com" />
+    <Regex Regex="(?:\S*\.)?ntt\.net" />
+  </Region>
+</Service>
+</DomainRegexes>

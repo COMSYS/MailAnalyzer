@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Oracle
+Internal-Id: 23
+Source: unknown
+Author: Muehmer, Henze
+Date: 2016-11-15 17:22
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name ="Oracle" Id="23">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?oraclecloud\.com" />
+    <Regex Regex="(?:\S*\.)?oracle\.com" />
+    <Regex Regex="(?:\S*\.)?oracleoutsourcing\.com" />
+    <Regex Regex="(?:\S*\.)?oracle-occn\.com" />
+    <Regex Regex="(?:\S*\.)?rightnowtech\.com" />
+    <Regex Regex="(?:\S*\.)?eloqua\.com" />
+    <Regex Regex="(?:\S*\.)?en25\.com" />
+    <Regex Regex="(?:\S*\.)?rnmk\.com" />
+    <Regex Regex="(?:\S*\.)?oracle-ocna\.com" />
+    <Regex Regex="(?:\S*\.)?oracledemos\.com" />
+    <Regex Regex="(?:\S*\.)?taleo\.net" />
+  </Region>
+</Service>
+</DomainRegexes>

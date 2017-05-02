@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Epsilon
+Internal-Id: -1
+Source: manual, senderbase.org
+Author: Henze
+Date: 2016-11-15 16:46
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name ="Epsilon" Id="-1">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?epsl1\.com" />
+    <Regex Regex="(?:\S*\.)?epsl2\.com" />
+    <Regex Regex="(?:\S*\.)?bfi0\.com" />
+    <Regex Regex="(?:\S*\.)?epidm\.net" />
+  </Region>
+</Service>
+</DomainRegexes>

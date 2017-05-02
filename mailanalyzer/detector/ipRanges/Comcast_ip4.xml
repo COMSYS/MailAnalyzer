@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Comcast (IPv4)
+Internal-Id: -1
+Source: http://postmaster.comcast.net/outbound-mail-servers.html
+Author: Henze
+Date: 2016-10-12 19:06
+-->
+<IpRanges xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Comcast" Id="-1">
+  <Region ID="0">
+    <IpRange Subnet="69.252.207.33" />
+    <IpRange Subnet="69.252.207.34" />
+    <IpRange Subnet="69.252.207.35" />
+    <IpRange Subnet="69.252.207.36" />
+    <IpRange Subnet="69.252.207.37" />
+    <IpRange Subnet="69.252.207.38" />
+    <IpRange Subnet="69.252.207.39" />
+    <IpRange Subnet="69.252.207.40" />
+    <IpRange Subnet="69.252.207.41" />
+    <IpRange Subnet="69.252.207.42" />
+    <IpRange Subnet="69.252.207.43" />
+    <IpRange Subnet="69.252.207.44" />
+    <IpRange Subnet="96.114.154.160" />
+    <IpRange Subnet="96.114.154.161" />
+    <IpRange Subnet="96.114.154.162" />
+    <IpRange Subnet="96.114.154.163" />
+    <IpRange Subnet="96.114.154.164" />
+    <IpRange Subnet="96.114.154.165" />
+    <IpRange Subnet="96.114.154.166" />
+    <IpRange Subnet="96.114.154.167" />
+    <IpRange Subnet="96.114.154.168" />
+    <IpRange Subnet="96.114.154.169" />
+    <IpRange Subnet="96.114.154.170" />
+    <IpRange Subnet="96.114.154.171" />
+    <IpRange Subnet="69.252.76.7" />
+    <IpRange Subnet="69.252.76.8" />
+    <IpRange Subnet="69.252.76.9" />
+    <IpRange Subnet="76.96.68.101" />
+    <IpRange Subnet="76.96.68.102" />
+    <IpRange Subnet="76.96.68.103" />
+  </Region>
+</Service>
+</IpRanges>

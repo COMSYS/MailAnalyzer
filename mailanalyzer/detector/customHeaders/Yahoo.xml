@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomHeaders xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Yahoo">
+	<CHeader Name="DomainKey-Signature"> 
+		<Region ID="0">
+            <Domain Regex="d=yahoo\.[A-Za-z]{2,3}" />
+            <Domain Regex="d=yahoo\.[A-Za-z]{2,3}\.[A-Za-z]{2,3}" />
+            <Domain Regex="d=ymail\.com" />
+            <Domain Regex="d=yahoogroups\.com" />
+		</Region>
+	</CHeader>
+	<CHeader Name="x-ymail-osg"></CHeader>
+	<CHeader Name="x-yahoo-newman-property"></CHeader>
+	<CHeader Name="x-yahoo-newman-id"></CHeader>
+	<CHeader Name="DKIM-Signature">
+		<Region ID="0">
+            <Domain Regex="d=yahoo\.[A-Za-z]{2,3}" />
+            <Domain Regex="d=yahoo\.[A-Za-z]{2,3}\.[A-Za-z]{2,3}" />
+            <Domain Regex="d=ymail\.com" />
+            <Domain Regex="d=yahoogroups\.com" />
+		</Region>
+	</CHeader>
+</Service>
+</CustomHeaders>

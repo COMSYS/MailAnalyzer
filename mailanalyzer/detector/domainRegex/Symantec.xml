@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Symantec
+Internal-Id: ?
+Source: manual, senderbase.org
+Author: Henze
+Date: 2016-11-16 17:05
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name ="Symantec" Id="?">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?messagelabs\.com" />
+    <Regex Regex="(?:\S*\.)?messagelabs\.net" />
+    <Regex Regex="(?:\S*\.)?symauth\.com" />
+    <Regex Regex="(?:\S*\.)?symantec\.com" />
+    <Regex Regex="(?:\S*\.)?symantec\.com\.au" />
+    <Regex Regex="(?:\S*\.)?symanteco3\.com" />
+    <Regex Regex="(?:\S*\.)?symclab\.com" />
+    <Regex Regex="(?:\S*\.)?symnds\.com" />
+    <Regex Regex="(?:\S*\.)?spn\.com" />
+    <Regex Regex="(?:\S*\.)?securityfocus\.com" />
+    <Regex Regex="(?:\S*\.)?norton\.com" />
+    <Regex Regex="(?:\S*\.)?brightmail\.com" />
+    <Regex Regex="(?:\S*\.)?monitoredsecurity\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

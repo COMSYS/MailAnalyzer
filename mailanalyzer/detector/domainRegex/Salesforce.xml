@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Salesforce
+Internal-Id: 13
+Source: manual, senderbase.org
+Author: Henze
+Date: 2016-11-15 17:10
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name ="Salesforce" Id="13">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?salesforce\.com" />
+    <Regex Regex="(?:\S*\.)?exacttarget\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

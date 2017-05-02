@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Mimecast (IPv4)
+Internal-Id: ?
+Source: https://community.mimecast.com/docs/DOC-1134
+Author: Henze
+Date: 2016-10-13 14:30
+-->
+<IpRanges xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Mimecast" Id="?">
+  <Region ID="17">
+    <IpRange Subnet="195.130.217.0/24" />
+    <IpRange Subnet="91.220.42.0/24" />
+    <IpRange Subnet="185.58.84.0/22" />
+    <IpRange Subnet="146.101.78.0/24" />
+    <IpRange Subnet="207.82.80.0/24" />
+    <IpRange Subnet="193.118.78.128/26" />
+    <IpRange Subnet="205.217.25.128/26" />
+  </Region>
+  <Region ID="2">
+    <IpRange Subnet="207.211.31.0/25" />
+    <IpRange Subnet="207.211.30.0/24" />
+    <IpRange Subnet="205.139.110.0/24" />
+    <IpRange Subnet="205.139.111.0/24" />
+    <IpRange Subnet="216.205.24.0/24" />
+    <IpRange Subnet="63.128.21.0/24" />
+    <IpRange Subnet="207.211.41.113/32" />
+  </Region>
+  <Region ID="74">
+    <IpRange Subnet="41.74.192.0/20" />
+  </Region>
+  <Region ID="41">
+    <IpRange Subnet="103.13.69.0/24" />
+    <IpRange Subnet="124.47.150.0/24" />
+    <IpRange Subnet="124.47.189.0/24" />
+    <IpRange Subnet="180.189.28.0/24" />
+  </Region>
+  <Region ID="0">
+    <IpRange Subnet="213.167.75.0/24" />
+    <IpRange Subnet="213.167.81.0/24" />
+    <IpRange Subnet="146.101.202.134" />
+    <IpRange Subnet="146.101.202.135" />
+    <IpRange Subnet="81.145.134.178" />
+    <IpRange Subnet="81.145.134.173" />
+  </Region>
+</Service>
+</IpRanges>

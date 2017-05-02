@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Mimecast
+Internal-Id: ?
+Source: manual, senderbase.org
+Author: Henze
+Date: 2016-11-16 16:53
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name ="Mimecast" Id="?">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?mimecast\.com" />
+    <Regex Regex="(?:\S*\.)?mimecast\.co\.za" />
+    <Regex Regex="(?:\S*\.)?mimecast-offshore\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

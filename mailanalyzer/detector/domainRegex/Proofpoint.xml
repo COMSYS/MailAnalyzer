@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Proofpoint
+Internal-Id: ?
+Source: manual, senderbase.org
+Author: Henze
+Date: 2016-11-16 16:59
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name ="Proofpoint" Id="?">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?proofpointessentials\.com" />
+    <Regex Regex="(?:\S*\.)?proofpoint\.com" />
+    <Regex Regex="(?:\S*\.)?pphosted\.com" />
+    <Regex Regex="(?:\S*\.)?proofpointarchiving\.net" />
+    <Regex Regex="(?:\S*\.)?ppe-hosted\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

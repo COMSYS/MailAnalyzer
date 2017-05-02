@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Apple iCloud Mail
+Internal-Id: 53
+Source: manual
+Author: Henze
+Date: 2016-10-17 17:42
+-->
+<CustomHeaders xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Apple" id="53">
+	<CHeader Name="DomainKey-Signature"> 
+		<Region ID="0">
+			<Domain Regex="d=(?:\S*\.)?apple\.com" />
+			<Domain Regex="d=(?:\S*\.)?icloud\.com" />
+			<Domain Regex="d=(?:\S*\.)?me\.com" />
+			<Domain Regex="d=(?:\S*\.)?mac\.com" />
+		</Region>
+	</CHeader>
+	<CHeader Name="DKIM-Signature">
+		<Region ID="0">
+			<Domain Regex="d=(?:\S*\.)?apple\.com" />
+			<Domain Regex="d=(?:\S*\.)?icloud\.com" />
+			<Domain Regex="d=(?:\S*\.)?me\.com" />
+			<Domain Regex="d=(?:\S*\.)?mac\.com" />
+		</Region>
+	</CHeader>
+</Service>
+</CustomHeaders>

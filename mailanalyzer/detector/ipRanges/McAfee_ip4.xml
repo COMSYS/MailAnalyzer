@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: McAfee (IPv4)
+Internal-Id: ?
+Source: https://support.mcafeesaas.com/MCAFEE/_cs/AnswerDetail.aspx?sSessionID=&aid=7378
+Author: Henze
+Date: 2016-10-13 13:30
+-->
+<IpRanges xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="McAfee" Id="?">
+  <Region ID="0">
+    <IpRange Subnet="208.65.144.0/21" />
+    <IpRange Subnet="208.81.64.0/21" />
+  </Region>
+</Service>
+</IpRanges>

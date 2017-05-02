@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: AppRiver (IPv4)
+Internal-Id: ?
+Source: https://support.appriver.com/kb/a39/limiting-inbound-smtp-traffic-from-apprivers-servers.aspx
+Author: Henze
+Date: 2016-10-13 13:40
+-->
+<IpRanges xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="AppRiver" Id="?">
+  <Region ID="0">
+    <IpRange Subnet="5.152.185.128/26" />
+    <IpRange Subnet="8.19.118.0/24" />
+    <IpRange Subnet="8.31.233.0/24" />
+    <IpRange Subnet="72.32.252.0/24" />
+    <IpRange Subnet="74.205.4.0/24" />
+    <IpRange Subnet="207.97.230.0/24" />
+    <IpRange Subnet="207.97.242.0/24" />
+    <IpRange Subnet="69.20.58.226" />
+    <IpRange Subnet="69.20.68.133" />
+    <IpRange Subnet="207.97.224.142" />
+    <IpRange Subnet="207.97.229.125" />
+    <IpRange Subnet="8.31.233.196" />
+    <IpRange Subnet="92.52.89.74" />
+    <IpRange Subnet="72.32.253.10" />
+    <IpRange Subnet="72.32.252.97" />
+    <IpRange Subnet="69.20.60.122" />
+    <IpRange Subnet="69.20.58.234" />
+    <IpRange Subnet="72.32.253.39" />
+    <IpRange Subnet="98.129.58.235" />
+  </Region>
+</Service>
+</IpRanges>

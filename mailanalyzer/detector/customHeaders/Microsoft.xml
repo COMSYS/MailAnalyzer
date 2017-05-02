@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Microsoft
+Internal-Id: ?
+Source: manual
+Author: Henze
+Date: 2016-10-17 18:12
+-->
+<CustomHeaders xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Microsoft" id="?">
+	<CHeader Name="DomainKey-Signature"> 
+		<Region ID="0">
+			<Domain Regex="d=(?:\S*\.)?microsoft\.com" />
+			<Domain Regex="d=(?:\S*\.)?microsoftemail\.com" />
+			<Domain Regex="d=(?:\S*\.)?onmicrosoft\.com" />
+			<Domain Regex="d=(?:\S*\.)?outlook\.com" />
+			<Domain Regex="d=(?:\S*\.)?microsoftazure\.com" />
+		</Region>
+	</CHeader>
+	<CHeader Name="DKIM-Signature">
+		<Region ID="0">
+			<Domain Regex="d=(?:\S*\.)?microsoft\.com" />
+			<Domain Regex="d=(?:\S*\.)?microsoftemail\.com" />
+			<Domain Regex="d=(?:\S*\.)?onmicrosoft\.com" />
+			<Domain Regex="d=(?:\S*\.)?outlook\.com" />
+			<Domain Regex="d=(?:\S*\.)?microsoftazure\.com" />
+		</Region>
+	</CHeader>
+	<CHeader Name="x-microsoft-antispam"></CHeader>
+	<CHeader Name="x-microsoft-antispam-prvs"></CHeader>
+</Service>
+</CustomHeaders>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Apple iCloud Mail (IPv4)
+Internal-Id: 53
+Source: manual, senderbase.org
+Author: Henze
+Date: 2016-11-16 17:25
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name ="Apple" Id="53">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?mac\.com" />
+     <Regex Regex="(?:\S*\.)?apple\.com" />
+     <Regex Regex="(?:\S*\.)?icloud\.com" />
+     <Regex Regex="(?:\S*\.)?filemaker\.com" />
+     <Regex Regex="(?:\S*\.)?aaplimg\.com" />
+     <Regex Regex="(?:\S*\.)?me\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

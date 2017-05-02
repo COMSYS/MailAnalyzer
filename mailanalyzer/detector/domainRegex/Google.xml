@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Google
+Internal-Id: 4
+Source: manual, senderbase, https://www.google.com/support/enterprise/static/postini/docs/admin/en/admin_ee_cu/ob_setup.html
+Author: Henze
+Date: 2016-11-16 16:05
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name ="Google" Id="4">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?google\.com" />
+    <Regex Regex="(?:\S*\.)?gmail\.com" />
+    <Regex Regex="(?:\S*\.)?googlemail\.com" />   
+    <Regex Regex="(?:\S*\.)?postini\.com" />
+    <Regex Regex="(?:\S*\.)?obsmtp\.com" />
+    <Regex Regex="(?:\S*\.)?1e100\.net" />
+    <Regex Regex="(?:\S*\.)?googlehosted\.com" />
+    <Regex Regex="(?:\S*\.)?googlewifi\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

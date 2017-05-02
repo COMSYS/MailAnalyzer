@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Microsoft
+Internal-Id: ?
+Source: manual
+Author: Henze
+Date: 2016-10-16 16:16
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name ="Microsoft" Id="?">
+  <Region ID="0">
+    <Regex Regex="hotmail\.[A-Za-z]{2,3}" />
+    <Regex Regex="hotmail\.[A-Za-z]{2,3}\.[A-Za-z]{2,3}" />
+    <Regex Regex="live\.[A-Za-z]{2,3}" />
+    <Regex Regex="live\.[A-Za-z]{2,3}\.[A-Za-z]{2,3}" />
+    <Regex Regex="microsoft\.com" />
+    <Regex Regex="msn\.com" />
+    <Regex Regex="outlook\.com" />
+    <Regex Regex="(?:\S*\.)?\.microsoftazure\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

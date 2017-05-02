@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: 1and1
+Internal-Id: ?
+Source: manual, senderbase.org, http://postmaster.1and1.com/en/email-server/
+Author: Henze
+Date: 2016-11-16 17:40
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name ="1and1" Id="?">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?perfora\.net" />
+    <Regex Regex="(?:\S*\.)?kundenserver\.de" />
+    <Regex Regex="(?:\S*\.)?1and1\.[A-Za-z]{2,3}" />
+    <Regex Regex="(?:\S*\.)?1and1\.[A-Za-z]{2,3}\.[A-Za-z]{2,3}" />
+    <Regex Regex="(?:\S*\.)?schlund\.de" />
+    <Regex Regex="(?:\S*\.)?onlinehome-server\.com" />
+    <Regex Regex="(?:\S*\.)?onlinehome-server\.info" />
+    <Regex Regex="(?:\S*\.)?live-servers\.net" />
+    <Regex Regex="(?:\S*\.)?servidoresdns\.net" />
+    <Regex Regex="(?:\S*\.)?clienthosting\.fr" />
+    <Regex Regex="(?:\S*\.)?arsystel\.com" />
+    <Regex Regex="(?:\S*\.)?clienteservidor\.es" />
+    <Regex Regex="(?:\S*\.)?online\.de" />
+    <Regex Regex="(?:\S*\.)?web\.de" />
+    <Regex Regex="(?:\S*\.)?onlinehome\.fr" />
+    <Regex Regex="(?:\S*\.)?oneandone\.net" />
+    <Regex Regex="(?:\S*\.)?pureserver\.info" />
+    <Regex Regex="(?:\S*\.)?fasthosts\.net\.uk" />
+    <Regex Regex="(?:\S*\.)?fasthosts\.co\.uk" />
+    <Regex Regex="(?:\S*\.)?livemail\.co\.uk" />
+    <Regex Regex="(?:\S*\.)?customerhosting\.co\.uk" />
+    <Regex Regex="(?:\S*\.)?livedns\.org\.uk" />
+    <Regex Regex="(?:\S*\.)?gmx\.[A-Za-z]{2,3}" />
+    <Regex Regex="(?:\S*\.)?gmx\.[A-Za-z]{2,3}\.[A-Za-z]{2,3}" />
+  </Region>
+</Service>
+</DomainRegexes>

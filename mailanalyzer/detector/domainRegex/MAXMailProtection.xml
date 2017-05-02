@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: MAXMailProtection / LOGICnow (IPv4)
+Internal-Id: ?
+Source: manual
+Author: Henze
+Date: 2016-11-16 16:48
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name ="MAXMailProtection" Id="?">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?smtproutes\.com" />
+    <Regex Regex="(?:\S*\.)?smtpbak\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

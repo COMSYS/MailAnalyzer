@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Amazon
+Internal-Id: 51
+Source: manual, http://research.domaintools.com/statistics/mailservers/
+Author: Henze
+Date: 2016-10-17 15:58
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name ="Amazon" Id="51">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?amazonses\.com" />
+    <Regex Regex="(?:\S*\.)?amazon\.[A-Za-z]{2,3}" />
+    <Regex Regex="(?:\S*\.)?amazon\.[A-Za-z]{2,3}\.[A-Za-z]{2,3}" />
+    <Regex Regex="(?:\S*\.)?amazonaws\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

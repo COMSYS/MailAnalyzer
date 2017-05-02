@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: CenturyLink
+Internal-Id: ?
+Source: manual
+Author: Henze
+Date: 2016-10-18 09:55
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name ="CenturyLink" Id="?">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?ctl\.io" />
+    <Regex Regex="(?:\S*\.)?qwest\.net" />
+    <Regex Regex="(?:\S*\.)?centurytel\.net" />
+    <Regex Regex="(?:\S*\.)?centurylinkservices\.net" />
+    <Regex Regex="(?:\S*\.)?centurylink\.net" />
+    <Regex Regex="(?:\S*\.)?embarqnow\.net" />
+  </Region>
+</Service>
+</DomainRegexes>

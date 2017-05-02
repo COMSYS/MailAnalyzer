@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Adobe Marketing Cloud
+Internal-Id: 42
+Source: https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-migration-decisions.html, https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-migration-decisions.html
+Author: Muehmer, Pennekamp, Henze
+Date: 2016-07-11 19:00
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name ="AdobeMarketingCloud" Id="42">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?2o7\.net" />
+    <Regex Regex="(?:\S*\.)?omtrdc\.net" />
+    <Regex Regex="(?:\S*\.)?omniture\.com" />
+    <Regex Regex="(?:\S*\.)?adobesystems\.com" />
+    <Regex Regex="(?:\S*\.)?adobe\.com" />
+    <Regex Regex="(?:\S*\.)?adobeconnect\.com" />
+    <Regex Regex="(?:\S*\.)?adobeitc\.com" />
+    <Regex Regex="(?:\S*\.)?neolane\.net" />
+  </Region>
+</Service>
+</DomainRegexes>

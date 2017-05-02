@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomHeaders xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Google">
+	<CHeader Name="DomainKey-Signature"> 
+		<Region ID="0">
+			<Domain Regex="d=gmail\.com" />
+			<Domain Regex="d=google\.com" />
+			<Domain Regex="d=googlemail\.com" />
+			<Domain Regex="d=1e100\.net" />
+			<Domain Regex="d=(?:\S*\.)?gappssmtp\.com" />
+			<Domain Regex="d=googlegroups\.com" />
+			<Domain Regex="d=plus\.google\.com" />
+		</Region>
+	</CHeader>
+	<CHeader Name="X-Google-DKIM-Signature"></CHeader>
+	<CHeader Name="X-Google-Sender-Auth"></CHeader>
+	<CHeader Name="X-Gm-Message-State"></CHeader>
+	<CHeader Name="x-gmail-original-message-id"></CHeader>
+	<CHeader Name="DKIM-Signature">
+		<Region ID="0">
+			<Domain Regex="d=gmail\.com" />
+			<Domain Regex="d=google\.com" />
+			<Domain Regex="d=googlemail\.com" />
+			<Domain Regex="d=1e100\.net" />
+			<Domain Regex="d=(?:\S*\.)?gappssmtp\.com" />
+			<Domain Regex="d=googlegroups\.com" />
+			<Domain Regex="d=plus\.google\.com" />
+		</Region>
+	</CHeader>
+	<CHeader Name="x-google-group-id"></CHeader>
+</Service>
+</CustomHeaders>
